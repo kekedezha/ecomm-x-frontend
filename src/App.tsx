@@ -1,14 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/layout/Navbar";
+import Home from "@/pages/Home";
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <div className='text-3xl font-bold text-blue-500'>
-        Tailwind is working!
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   )
 }
