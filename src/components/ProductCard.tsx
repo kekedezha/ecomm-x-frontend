@@ -15,7 +15,7 @@ export function ProductCard({ product }: { product: Product }) {
         <img
           src={product.image}
           alt={product.name}
-          className="rounded-md object-cover h-40 w-full"
+          className="rounded-md object-cover h-75 w-full"
         />
         <CardTitle className="text-lg">{product.name}</CardTitle>
       </CardHeader>
