@@ -14,7 +14,7 @@ export function Navbar() {
                 <nav className="hidden md:flex gap-6 text-sm font-medium">
                     <Link to="/">Home</Link>
                     <Link to="/shop">Shop</Link>
-                    <Link to="">About</Link>
+                    <Link to="/story">Story</Link>
                     <Link to="">Contact</Link>
                 </nav>
 
