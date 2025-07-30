@@ -28,13 +28,15 @@ const allProducts: Product[] = [
 
 export default function Shop() {
     return (
-        <main className="p-6 max-w-6xl mx-auto">
-            <h1 className="text-3xl font-bold mb-6">Shop All Baked Goods</h1>
-            <section className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                {allProducts.map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                ))}
-            </section>
-        </main>
+        <div className="relative max-w-6xl pt-10 z-10">
+            <div className="max-w-6xl bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-8 min-h-screen">
+                <h1 className="text-3xl font-bold mb-6">Shop All Baked Goods</h1>
+                <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
+                    {allProducts.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))}
+                </section>
+            </div>
+        </div>
     );
 }
