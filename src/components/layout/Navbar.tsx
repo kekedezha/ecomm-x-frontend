@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export function Navbar() {
     return (
-        <header className="w-full px-6 py-4 shadow-sm bg-white">
+        <header className="z-50 sticky top-0 w-full px-6 py-4 shadow-md bg-background/80 backdrop-blur-md">
             <div className="flex items-center justify-between max-w-6xl mx-auto">
                 {/* Logo Brand / Home Page */}
                 <Link to="/" className="text-2xl font-bold tracking-tight">
