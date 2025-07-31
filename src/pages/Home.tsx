@@ -10,19 +10,19 @@ const featuredProducts: Product[] = [
         id: "1",
         name: "Baguette",
         image: baguette,
-        price: "4.00"
+        price: "6.99"
     },
     {
         id: "2",
-        name: "Croissant",
+        name: "Almond Croissant",
         image: croissant,
-        price: "5.00"
+        price: "3.99"
     },
     {
         id: "3",
         name: "Focaccia",
         image: focaccia,
-        price: "5.00"
+        price: "3.99"
     },
 ];
 
