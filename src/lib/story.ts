@@ -15,3 +15,14 @@ export const passion3: string =
 
 export const homePageQuote: string =
   "Born of air, time, and craft - Alvéole is a celebration of the delicate precision behind every loaf, every layer, every crumb.";
+
+export const birth1: string =
+  "Honing his passion and culinary skills, allowed Christian to gather the strength to open up the location for Alvéole where people could come and discover delectable creations. The idea of opening a bakery had been on his mind since he ventured into baking and with the help of his architect partner, Dan, a space was found in a cozy and welcoming neighborhood of Wesley Heights. The idea behind the space was to invoke a feeling of freshness and tranquility, something that Christian experienced when sharing baked goods with his parents.";
+
+export const birth2: string =
+  "Since the grand-opening in October 202x, the bakery has provided customers with smiles and numerous delicious bites. The space is now filled with lots of 'workers-from-home', moms and dads, neighborhood locals as well as out-of-towners.";
+
+export const giving1: string =
+  "As days and year have passed, the counter offerings have varied, and evolved, depending on the availability of ingredients, the desires of the customers and the ever-changing, innovative recipes that Christian and the team come up with.";
+
+export const giving2: string = "Christian believes ";
