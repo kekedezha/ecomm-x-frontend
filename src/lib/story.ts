@@ -25,4 +25,8 @@ export const birth2: string =
 export const giving1: string =
   "As days and year have passed, the counter offerings have varied, and evolved, depending on the availability of ingredients, the desires of the customers and the ever-changing, innovative recipes that Christian and the team come up with.";
 
-export const giving2: string = "Christian believes ";
+export const giving2: string =
+  "Christian believes food should provide comfort and should nourish the soul. He attempts to accomplish this through means of his baking. This was first exemplified by his mother. It was not only through her cooking but through all her doings that she exuded love.";
+
+export const giving3: string =
+  "We hope that every person who walks through these doors leaves a bit sweeter and with a bit more love.";
