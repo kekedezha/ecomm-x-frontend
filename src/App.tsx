@@ -8,12 +8,12 @@ import Story from "./pages/Story";
 function App() {
 
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen bg-background relative">
       {/* NavBar component */}
       <Navbar />
 
       {/* Pages */}
-      <main className="bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-8 min-h-screen">
+      <main className="bg-white shadow-xl rounded-2xl p-8 min-h-screen relative z-10 mb-72">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
