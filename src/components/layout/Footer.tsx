@@ -56,7 +56,11 @@ export function Footer() {
                         </div>
                     </div>
                 </div>
-
+                <div>
+                    <h2 className="font-cherry text-4xl">
+                        Alvéole
+                    </h2>
+                </div>
                 <div className="flex justify-between px-8 w-full">
                     <p>Copyright 2025 | Alvéole - Pain & Pâtisserie</p>
                     <p>Terms of Use | Privacy Policy</p>

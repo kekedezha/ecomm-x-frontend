@@ -13,6 +13,7 @@ const config: Config = {
       fontFamily: {
         display: ['"Playfair Display"', "serif"],
         sans: ['"Inter"', "sans-serif"],
+        cherry: ['"Cherry Bomb One"', "cursive"],
       },
     },
   },
