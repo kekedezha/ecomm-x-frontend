@@ -13,7 +13,7 @@ function App() {
       <Navbar />
 
       {/* Pages */}
-      <main className="bg-white shadow-xl rounded-2xl p-8 min-h-screen relative z-10 mb-72">
+      <main className="bg-white shadow-xl rounded-b-2xl p-8 min-h-screen relative z-10 mb-[740px] md:mb-[490px]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
