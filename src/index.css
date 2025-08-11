@@ -1,7 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+/* src/index.css */
+@font-face {
+  font-family: Cherry;
+  src: url("../src/assets/fonts/CherryBombOne-Regular.ttf");
+}
 
 @import "tailwindcss";
-@import "tw-animate-css";
+
+@theme {
+  --font-cherry: Cherry, "sans-serif";
+}
 
 @custom-variant dark (&:is(.dark *));
 

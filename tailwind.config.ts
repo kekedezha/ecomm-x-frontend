@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss";
+/** @type {import('tailwindcss').Config} */
 
-const config: Config = {
+export default {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
@@ -13,11 +13,10 @@ const config: Config = {
       fontFamily: {
         display: ['"Playfair Display"', "serif"],
         sans: ['"Inter"', "sans-serif"],
-        cherry: ['"Cherry Bomb One"', "cursive"],
+        cherry: ["Cherry Bomb One", "cursive"],
+        roboto: ['"Roboto"', "sans-serif"],
       },
     },
   },
   plugins: [],
 };
-
-export default config;

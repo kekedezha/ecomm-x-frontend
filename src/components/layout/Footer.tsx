@@ -57,7 +57,7 @@ export function Footer() {
                     </div>
                 </div>
                 <div>
-                    <h2 className="font-cherry text-4xl">
+                    <h2 className="font-cherry text-8xl">
                         Alvéole
                     </h2>
                 </div>
