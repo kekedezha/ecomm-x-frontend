@@ -15,7 +15,7 @@ export function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/shop">Shop</Link>
                     <Link to="/story">Story</Link>
-                    <Link to="">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </nav>
 
                 {/* User Links */}
