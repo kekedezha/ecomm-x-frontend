@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
+import { Toaster } from "sonner";
 import Home from "@/pages/Home";
 import Shop from "./pages/Shop";
 import Story from "./pages/Story";
@@ -23,6 +24,7 @@ function App() {
         </Routes>
       </main>
 
+      <Toaster position="top-center" expand={true} richColors />
 
       {/* Footer */}
       <Footer />
