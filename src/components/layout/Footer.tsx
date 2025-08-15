@@ -48,9 +48,6 @@ export function Footer() {
                                 <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
                                     <span className="text-teal-600 font-bold text-sm">📷</span>
                                 </div>
-                                <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
-                                    <span className="text-teal-600 font-bold text-sm">📱</span>
-                                </div>
                             </div>
                         </div>
                     </div>
