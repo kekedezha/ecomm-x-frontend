@@ -7,7 +7,7 @@ export function Navbar() {
             <div className="flex items-center justify-between max-w-6xl mx-auto">
                 {/* Logo Brand / Home Page */}
                 <Link to="/" className="text-2xl font-bold tracking-tight">
-                    Ecomm Bakery
+                    Alvéole
                 </Link>
 
                 {/* Navigation Links */}
