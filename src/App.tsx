@@ -15,7 +15,7 @@ function App() {
       <Navbar />
 
       {/* Pages */}
-      <main className="bg-white shadow-xl rounded-b-2xl p-8 min-h-screen relative z-10 mb-[740px] md:mb-[490px]">
+      <main className="bg-white shadow-xl rounded-b-2xl p-8 min-h-screen relative z-10 mt-4 mb-[740px] md:mb-[490px]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -29,6 +29,7 @@ function App() {
       {/* Footer */}
       <Footer />
     </div>
+
   )
 }
 
