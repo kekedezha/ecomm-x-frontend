@@ -57,8 +57,8 @@ export default function Contact() {
     return (
         <div className="p-6 max-w-6xl mx-auto">
             <div className='border-box box-border leading-1'>
-                <section className="flex justify-between items-center mt-[100px] py-[50px] px-[4vw] overflow-x-hidden box-border leading-1">
-                    <div className='basis-[60%] box-border leading-1'>
+                <section className="flex justify-between items-stretch mt-[100px] py-[50px] px-[1vw] overflow-x-hidden">
+                    <div className='basis-[53%] box-border leading-1'>
                         <h2 className='font-cherry text-7xl uppercase my-16'>Contact Us</h2>
                         <Form {...form}>
                             <form onSubmit={form.handleSubmit(onSubmit)} className='flex flex-wrap gap-8 box-border leading-1'>
@@ -138,14 +138,12 @@ export default function Contact() {
                             </form>
                         </Form>
                     </div>
-                    <div className='w-full h-full basis-[40%] relative overflow-hidden rounded-3xl aspect-[3/4] box-border leading-1'>
-                        <div className='translate-none rotate-none scale-none transform-[translate(0px, 13.3567%, 0px)] w-full h-[120%] bottom-0 left-0 absolute box-border leading-1'>
-                            <img
-                                src={contactImage}
-                                alt="Beautiful shop front. Photo by Pinar Kucuk on Unsplash."
-                                className="rounded-md w-full object-cover box-border leading-1"
-                            />
-                        </div>
+                    <div className="basis-[47%] relative overflow-hidden rounded-3xl flex">
+                        <img
+                            src={contactImage}
+                            alt="Beautiful shop front. Photo by Pinar Kucuk on Unsplash."
+                            className="w-full h-full object-cover rounded-3xl"
+                        />
                     </div>
                 </section>
             </div>
