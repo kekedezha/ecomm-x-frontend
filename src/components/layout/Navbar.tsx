@@ -29,11 +29,11 @@ export function Navbar() {
 
                 {/* Navigation Links */}
                 <nav className="hidden md:flex gap-8 text-sm font-medium">
-                    <Link to="/home" className="hover:text-foreground/80 transition-colors">
-                        HOME
+                    <Link to="/shop_bp" className="hover:text-foreground/80 transition-colors">
+                        BREAD & PASTRIES
                     </Link>
-                    <Link to="/shop" className="hover:text-foreground/80 transition-colors">
-                        SHOP
+                    <Link to="/shop_ct" className="hover:text-foreground/80 transition-colors">
+                        COOKIES & TARTS
                     </Link>
                     <Link to="/story" className="hover:text-foreground/80 transition-colors">
                         STORY
