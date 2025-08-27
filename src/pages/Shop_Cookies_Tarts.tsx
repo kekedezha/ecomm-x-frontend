@@ -59,7 +59,7 @@ const allProducts: Product[] = [
 export default function Shop() {
     return (
         <div className="p-6 mx-auto max-w-6xl bg-white/80 backdrop-blur-md">
-            <h1 className="text-3xl font-bold mb-6">Shop All Baked Goods</h1>
+            <h1 className="text-3xl font-bold mb-6">Cookies and Tarts</h1>
             <section className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
                 {allProducts.map((product) => (
                     <ProductCard key={product.id} product={product} />
