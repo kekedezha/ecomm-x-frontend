@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react"
+import { toast } from 'sonner';
 
 export function Footer() {
     const [isVisible, setIsVisible] = useState(false);
@@ -23,6 +24,11 @@ export function Footer() {
 
         return () => observer.disconnect();
     }, [])
+
+    function onEmailDiscount() {
+        toast.info('Thanks for subscribing to our newsletter. An email with a 15% discount code will be send to you shortly!')
+    }
+
     return (
         <footer
             ref={footerRef}
@@ -82,7 +88,11 @@ export function Footer() {
                                 placeholder="EMAIL"
                                 className="flex-1 px-4 py-3 rounded-full bg-pink-300 placeholder-white text-white border-none focus:outline-none focus:ring-2 focus:ring-white"
                             />
-                            <button className="px-6 py-3 bg-gray-800 text-white rounded-full font-semibold hover:bg-gray-700 transition-colors">
+                            <button
+                                onClick={onEmailDiscount}
+                                className="px-6 py-3 bg-gray-800 text-white rounded-full font-semibold hover:bg-gray-700 transition-colors"
+                                type="button"
+                            >
                                 JOIN
                             </button>
                         </div>
