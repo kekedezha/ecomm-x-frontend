@@ -39,7 +39,7 @@ export default function Home() {
                 alt="Inside the bakery at Alvéole, hypothetically. Photo by Andy Li on Unsplash."
                 className="w-full h-screen object-cover -z-1"
             />
-            <h1 className="text-8xl relative bottom-[450px] left-5 z-5 text-white font-bold">A BAKING <br /> LOVE AFFAIR</h1>
+            <h1 className="text-8xl relative bottom-[450px] left-5 z-5 text-white font-cherry">A BAKING <br /> LOVE AFFAIR</h1>
             <section className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center">
                 {featuredProducts.map((product) => (
                     <ProductCard key={product.id} product={product} />
