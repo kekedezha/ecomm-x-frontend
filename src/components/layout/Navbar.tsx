@@ -21,14 +21,14 @@ export function Navbar() {
             ? 'bg-background shadow-md backdrop-blur-md'
             : 'bg-transparent'
             }`}>
-            <div className="flex items-center justify-between max-w-6xl mx-auto">
+            <div className="flex items-center justify-between max-w-6xl mx-auto font-bold">
                 {/* Logo Brand / Home Page */}
-                <Link to="/" className="text-2xl font-bold tracking-wider">
+                <Link to="/" className="text-4xl tracking-wider font-cherry">
                     ALVÉOLE
                 </Link>
 
                 {/* Navigation Links */}
-                <nav className="hidden md:flex gap-8 text-sm font-medium">
+                <nav className="hidden md:flex gap-8 text-lg">
                     <Link to="/shop_bp" className="hover:text-foreground/80 transition-colors">
                         BREAD & PASTRIES
                     </Link>
